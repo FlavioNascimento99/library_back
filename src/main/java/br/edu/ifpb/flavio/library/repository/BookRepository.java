@@ -1,9 +1,9 @@
 package br.edu.ifpb.flavio.library.repository;
 
-import br.edu.ifpb.flavio.library.model.Exemplar;
+import br.edu.ifpb.flavio.library.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ExemplarRepository extends JpaRepository<Exemplar, Long> {
+public interface BookRepository extends JpaRepository<Book, Long> {
 
     // Logica
 
